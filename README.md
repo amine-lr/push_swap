@@ -32,6 +32,8 @@ The program can only use the following operations to manipulate the stacks:
 
 ## 🧠 Sorting Algorithms
 
+> Note: the complexities below are empirical targets observed with the bundled benchmark mode (`benchmark.c`), not proven worst-case bounds. Run `./push_swap` through the benchmark to reproduce the numbers on your machine.
+
 ### 🏃 Simple Algorithm (O(n²))
 
 **Strategy:** Repeated minimum extraction (Selection Sort adaptation)
